@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  {% block style %}
+  {% endblock style %}
+</head>
+<body>
+  <a href="/articles/">index</a>
+  <a href="/dinner/">dinner</a>
+  {% block content %}
+  {% endblock content %}
+
+</body> 
+</html>
